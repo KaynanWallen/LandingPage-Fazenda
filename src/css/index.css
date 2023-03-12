@@ -13,6 +13,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
 }
 header .header {
     height: 100%;
@@ -21,8 +22,6 @@ header .header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    
-
 }
 header .header > img {
     height: 80%;
@@ -47,6 +46,10 @@ header .header > img {
 .Abas > p a {
     text-decoration: none;
     color: white;
+}
+a {
+    text-decoration: none;
+    color: black;
 }
 .Telefone {
     width: 50%;
@@ -521,5 +524,39 @@ footer .container-footer > div {
     }
     .enviar {
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Main-1 div button {
+        width: 50%;
+    }
+    .Main-2 .Cards div {
+        width: 255px;
+    }
+    .Main-2 .Cards div p {
+        margin-top: 0;
+        font-size: 2.5rem;
+    }
+    .Infos2 > div {
+        height: 85%;
+        width: 280px;
+    }
+    .Imagens button {
+        margin-top: 1rem;
+        background-color: transparent;
+        height: 8%;
+        width: 60%;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .container-footer .contatos h2 {
+        font-size: 100%;
+    }
+    .container-footer .horario h2 {
+        font-size: 100%;
+    }
+    .container-footer .horario p {
+        font-size: 55%;
     }
 }

@@ -1,0 +1,525 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+header {
+    height: 7%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .header {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+header .header > img {
+    height: 80%;
+}
+.InfoHeader {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.Abas {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Abas p {
+    margin: 5%;
+}
+
+.Abas > p a {
+    text-decoration: none;
+    color: white;
+}
+.Telefone {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.Telefone > img {
+    height: 50%;
+    margin-right: 5%;
+}
+
+main {
+    height: 100%;
+}
+main .Main-1 {
+    height: 100%;
+    background-image: url('../img/wallpaper.avif');
+    display: flex;
+    align-items: center;
+}
+
+.Main-1 div {
+    height: 40%;
+    width: 40%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Main-1 div h2 {
+    font-size: 4rem;
+    color: white;
+}
+
+.Main-1 div button {
+    background-color: transparent;
+    border: 0.2rem solid yellow;
+    padding: 0.5rem;
+    height: 15%;
+    width: auto;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+main .Main-2 {
+    height: 90%;
+    background-color: rgba(128, 128, 128, 0.5);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+hr {
+    margin-top: 2%;
+    width: 20%;
+}
+.Main-2 h2 {
+    margin-top: 2%;
+    font-size: 3rem;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Main-2 p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.Main-2 .Cards {
+    margin-top: 2rem;
+    height: 40%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.Cards div {
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Cards div p {
+    font-size: 3rem;
+    width: 80%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Cards div .info-card {
+    font-size: 1rem;
+    display: none;
+}
+
+#pizza {
+    background-image: url('../img/pizza.jpeg');
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 2rem;
+}
+#buffet {
+    background-image: url('../img/buffet.png');
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 2rem;
+}
+#drinks {
+    background-image: url('../img/bebidas.avif');
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 2rem;
+}
+#sobremesas {
+    background-image: url('../img/sobremesas.jpeg');
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 2rem;
+}
+
+.Main-2 button {
+    margin-top: 2rem;
+    background-color: transparent;
+    border: 0.2rem solid yellow;
+    padding: 1rem;
+    height: 8%;
+    width: auto;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main .Main-3 {
+    height: 83%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Main-3 .Infos2 {
+    height: 85%;
+    width: 70%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow-x: auto;
+    background-image: url('../img/wallpaper.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.Infos2 div {
+    margin: 20px;
+    margin-right: 20px;
+    height: 85%;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.Imagens .imagem1 {
+    margin-top: 5%;
+    width: 90%;
+    height: 40%;
+}
+.Imagens .imagem2 {
+    margin-top: 2.5%;
+    height: 15%;
+    width: 90%;
+}
+.Imagens .double_img {
+    margin-top: 2.5%;
+    height: 150px;
+    width: 92%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: transparent;
+}
+.Imagens .double_img img {
+    margin: 5px;
+    height: 100%;
+    width: 50%;
+}
+
+.Imagens button {
+    margin-top: 1.5rem;
+    background-color: transparent;
+    border: 0.2rem solid yellow;
+    height: 8%;
+    width: 40%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+.form h2 {
+    margin-top: 5%;
+    width: 70%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.form p {
+    font-size: 1.3rem;
+    margin-top: 2.5%;
+    width: 60%;
+    text-align: center;
+}
+
+.form div {
+    margin-top: 2.5%;
+    height: 60%;
+    width: 70%;
+    border-radius: 1rem;
+}
+
+.user_infos {
+    display: flex;
+    justify-content: center;
+}
+.user_infos div {
+    margin-top: 5%;
+    height: 10%;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.user_infos .enviar {
+    width: 50%;
+    border-radius: 1rem;
+}
+.user_infos .inputs p {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    color: black;
+    margin-left: 1.5rem;
+}
+
+footer {
+    height: 13%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .container-footer{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container-footer img {
+    height: 70%;
+}
+footer .container-footer > div {
+    width: 20%;
+    height: 100%;
+}
+.container-footer .contatos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.contatos h2 {
+    font-size: 150%;
+    margin-bottom: 0.5rem;
+}
+
+.contatos div {
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: white;
+}
+
+.contatos div img {
+    height: 80%;
+    margin-right: 0.3rem;
+}
+.container-footer .horario {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+.horario h2 {
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 1400px) {
+        .InfoHeader {
+            width: 40%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+        footer .container-footer .horario {
+            width: 40%;
+        }
+        .container-footer .horario p {
+            font-size: 90%;
+        }
+        .container-footer .horario h2 {
+            font-size: 140%;
+        }
+        footer .container-footer .contatos {
+            width: 40%;
+        }
+        .Main-1 div {
+            width: 60%;
+        }
+}
+@media screen and (max-width: 999px) {
+    .InfoHeader {
+        width: 50%;
+    }
+    .Main-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .Main-1 div {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+    .Main-1 div h2{
+        font-size: 4rem;
+    }
+    .Main-3 .Infos2 {
+        border-radius: 1rem;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    header .header {
+        width: 100%;
+    }
+    .header > img {
+        margin-left: 5%;
+    }
+    .InfoHeader {
+        width: 70%;
+    }
+    main .Main-1 div {
+        width: 80%;
+    }
+    .Main-1 div button {
+        width: 40%;
+        font-size: 100%;
+    }
+    .Main-1 div h2{
+        font-size: 4rem;
+    }
+    footer .container-footer > img {
+        display: none;
+    }
+    footer .container-footer .horario {
+        width: 50%;
+    }
+    .container-footer .horario p {
+        font-size: 70%;
+    }
+    .container-footer .horario h2 {
+        font-size: 140%;
+    }
+    footer .container-footer .contatos {
+        width: 50%;
+    }
+    .container-footer .contatos p {
+        font-size: 70%;
+    }
+    .container-footer .contatos div img {
+        height: 60%;
+    }
+    .Infos2 > div {
+        height: 85%;
+        width: 400px;
+    }
+
+    .Infos2 div .user_infos .enviar {
+        display: none;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .Telefone {
+        display: none;
+    }
+    .Abas {
+        width: 100%;
+    }
+    main .Main-1 div {
+        margin-left: 0;
+        width: 100%;
+    }
+    .Main-1 div button {
+        width: 40%;
+        font-size: 100%;
+    }
+    .Main-1 div h2{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    main .Main-2 h2{
+        width: 100%;
+        font-size: 2rem;
+    }
+    main .Main-2 > p{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    main .Main-2 button {
+        font-size: 1.5rem;
+    }
+    .Infos2 > div {
+        height: 85%;
+        width: 300px;
+    }
+    .form .user_infos .inputs p {
+        font-size: 1rem;
+    }
+    .form h2 {
+        font-size: 1.5rem;
+    }
+    .form > p {
+        width: 90%;
+        font-size: 1rem;
+    }
+    .Infos2 div .user_infos .enviar {
+        display: flex;
+    }
+    .enviar {
+        justify-content: center;
+    }
+}
